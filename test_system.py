@@ -46,6 +46,16 @@ def test_database_connection():
     """Test PostgreSQL connection and schema"""
     print("\n🗄️  Testing database connection...")
     
+    # PRODUCTION: Use environment variables for credentials
+    # import os
+    # conn = psycopg2.connect(
+    #     host=os.getenv("POSTGRES_HOST", "localhost"),
+    #     port=int(os.getenv("POSTGRES_PORT", "5432")),
+    #     database=os.getenv("POSTGRES_DB", "compliance_system"),
+    #     user=os.getenv("POSTGRES_USER", "admin"),
+    #     password=os.getenv("POSTGRES_PASSWORD", "admin123")
+    # )
+    
     try:
         conn = psycopg2.connect(
             host="localhost",
@@ -166,6 +176,7 @@ def test_end_to_end_flow():
         time.sleep(5)
         
         # Check database for the record
+        # PRODUCTION: Use environment variables for credentials
         conn = psycopg2.connect(
             host="localhost",
             port=5432,

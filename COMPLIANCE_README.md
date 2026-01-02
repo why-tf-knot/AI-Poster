@@ -272,13 +272,26 @@ VALUES (
 
 ⚠️ **This is a development setup. For production:**
 
-1. Change default passwords in `docker-compose.yml`
-2. Use environment variables for sensitive data
+1. **Change default passwords** - Copy `.env.example` to `.env` and set strong passwords
+2. Use environment variables for sensitive data (see `.env.example`)
 3. Enable SSL/TLS for Kafka connections
 4. Implement authentication and authorization
 5. Set up database backups
 6. Use read-only database replicas for queries
 7. Implement rate limiting
+8. Never commit `.env` file to version control
+
+### Using Environment Variables
+
+```bash
+# Copy example configuration
+cp .env.example .env
+
+# Edit with your secure values
+nano .env
+
+# The system will automatically load from .env file
+```
 
 ## 🧪 Testing
 

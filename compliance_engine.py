@@ -434,12 +434,26 @@ class ComplianceEngine:
 def main():
     """Main execution"""
     # Kafka configuration
+    # PRODUCTION: Use environment variables instead of hardcoded values
+    # import os
+    # kafka_config = {
+    #     "bootstrap_servers": os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092"),
+    #     "topic": os.getenv("KAFKA_TOPIC", "telemetry_stream")
+    # }
     kafka_config = {
         "bootstrap_servers": "localhost:9092",
         "topic": "telemetry_stream"
     }
     
     # Database configuration
+    # PRODUCTION: Use environment variables instead of hardcoded credentials
+    # db_config = {
+    #     "host": os.getenv("POSTGRES_HOST", "localhost"),
+    #     "port": int(os.getenv("POSTGRES_PORT", "5432")),
+    #     "database": os.getenv("POSTGRES_DB", "compliance_system"),
+    #     "user": os.getenv("POSTGRES_USER", "admin"),
+    #     "password": os.getenv("POSTGRES_PASSWORD", "admin123")
+    # }
     db_config = {
         "host": "localhost",
         "port": 5432,

@@ -4,6 +4,9 @@ services:
     image: postgis/postgis:15-3.3
     container_name: compliance_db
     environment:
+      # SECURITY WARNING: These are default development credentials.
+      # For production, use strong passwords and environment variables.
+      # See .env.example for configuration template.
       POSTGRES_DB: compliance_system
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin123
