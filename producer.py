@@ -18,7 +18,7 @@ import json
 import time
 import random
 import math
-from datetime import datetime
+from datetime import datetime, timezone
 from kafka import KafkaProducer
 from typing import Dict, Tuple
 
@@ -109,13 +109,13 @@ class TelemetrySimulator:
     
     def generate_telemetry(self) -> Dict:
         """Generate a single telemetry data packet"""
-        timestamp = datetime.utcnow()
+        timestamp = datetime.now(timezone.utc)
         speed = self.calculate_speed()
         
         telemetry = {
             "device_id": self.device_id,
             "device_type": self.device_type,
-            "timestamp": timestamp.isoformat() + "Z",
+            "timestamp": timestamp.isoformat(),
             "coordinates": {
                 "longitude": round(self.longitude, 6),  # X
                 "latitude": round(self.latitude, 6),    # Y
