@@ -12,6 +12,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/why-tf-knot/AI-Poster?style=for-the-badge&logo=github&color=gold)](https://github.com/why-tf-knot/AI-Poster/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-brightgreen.svg?style=for-the-badge&logo=python)](https://python.org)
+[![React Native](https://img.shields.io/badge/React_Native-0.73-61DAFB.svg?style=for-the-badge&logo=react)](https://reactnative.dev)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-purple.svg?style=for-the-badge)]()
 
 </div>
@@ -140,11 +141,50 @@ AI-Poster/
 │   ├── planet_dashboard.py       # Planetary analysis dashboard
 │   └── 3d_molecular_viewer.py    # Molecular structure viewer
 │
-└── 🚀 apps/                      # Web applications
-    ├── molecule_explorer.py      # Interactive molecule database
-    ├── pipeline_demo.py          # Analysis pipeline showcase
-    └── space_mission_planner.py  # Mission target selection
+├── 🚀 apps/                      # Web applications
+│   ├── molecule_explorer.py      # Interactive molecule database
+│   ├── pipeline_demo.py          # Analysis pipeline showcase
+│   └── space_mission_planner.py  # Mission target selection
+│
+├── 📱 mobile/                    # Mobile applications (NEW!)
+│   ├── android/                  # Android app configuration
+│   ├── ios/                      # iOS app configuration
+│   ├── src/                      # React Native source code
+│   │   ├── App.js               # Main app component
+│   │   └── screens/             # App screens
+│   └── README.md                # Mobile app documentation
+│
+└── 🌐 public/                    # Web landing page
+    ├── index.html                # Main HTML page
+    └── style.css                 # SpaceX-inspired styling
 ```
+
+---
+
+## 📱 Mobile Applications
+
+<div align="center">
+
+### **🚀 [DOWNLOAD MOBILE APP →](mobile/)**
+*Available for Android and iOS*
+
+</div>
+
+Experience AI-Poster on the go with our native mobile applications!
+
+| **Platform** | **Status** | **Features** |
+|:---|:---:|:---|
+| 📱 **Android** | ✅ **Ready** | Full feature access, optimized for Android 6.0+ |
+| 🍎 **iOS** | ✅ **Ready** | Native iOS experience, supports iOS 13.4+ |
+
+**Mobile Features:**
+- 🌌 Interactive exoplanet exploration
+- 🔬 Real-time spectroscopy data access
+- 📊 Mobile-optimized data visualization
+- 🤖 AI model insights on your device
+- 🌍 Biosignature detection information
+
+📖 **[View Mobile App Documentation →](mobile/README.md)**
 
 ---
 
