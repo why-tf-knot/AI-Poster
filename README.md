@@ -11,8 +11,33 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/why-tf-knot/AI-Poster?style=for-the-badge&logo=github&color=gold)](https://github.com/why-tf-knot/AI-Poster/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-14+-brightgreen.svg?style=for-the-badge&logo=node.js)](https://nodejs.org)
 [![Python](https://img.shields.io/badge/Python-3.8+-brightgreen.svg?style=for-the-badge&logo=python)](https://python.org)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-purple.svg?style=for-the-badge)]()
+
+</div>
+
+---
+
+## 🚀 Quick Start
+
+**New here?** Start the application in 3 simple steps:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/why-tf-knot/AI-Poster.git
+cd AI-Poster
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the server
+npm start
+```
+
+**🌐 Open your browser:** [http://localhost:3000](http://localhost:3000)
+
+📖 **Need detailed instructions?** See [START_HERE.md](START_HERE.md) for comprehensive setup guide.
 
 </div>
 
@@ -30,26 +55,35 @@
 
 ---
 
-## ⚡ Quick Start Pipeline
+## ⚡ Development Roadmap
 
 <div align="center">
 
-### 🚀 **[LAUNCH PIPELINE DEMO →]()**
-*[Future: Link to interactive Jupyter notebook or web app]*
+### 🚀 **Current Status: Landing Page Live**
+*Future phases will include interactive Jupyter notebooks and web apps*
 
 </div>
 
+**Phase 1: Landing Page** ✅ (Current)
 ```bash
-# Clone the cosmic repository
-git clone https://github.com/why-tf-knot/AI-Poster.git
-cd AI-Poster
+# View the landing page
+npm start
+# Visit http://localhost:3000
+```
 
-# Install dependencies
+**Phase 2: Python Analysis Tools** 🚧 (Coming Soon)
+```bash
+# Future: Install Python dependencies
 pip install -r requirements.txt
 
-# Launch atmospheric analysis
+# Future: Launch atmospheric analysis
 python analyze_atmosphere.py --target="Kepler-452b"
 ```
+
+**Phase 3: Interactive Web Apps** 📋 (Planned)
+- Real-time spectral analysis visualization
+- Molecular database explorer
+- Mission planning interface
 
 ---
 
