@@ -66,7 +66,17 @@ Once the server is running, you'll see:
 
 Open your browser and navigate to:
 - **Local**: http://localhost:3000
-- **Network**: http://[your-ip]:3000
+
+### 🌍 Accessing from Other Devices (Network Access)
+
+By default, the server only accepts connections from `localhost` (your computer only). To allow access from other devices on your network:
+
+1. Edit your `.env` file (or create one from `.env.example`)
+2. Set `HOST=0.0.0.0`
+3. Restart the server
+4. Access from other devices using: http://[your-ip]:3000
+
+⚠️ **Security Note**: Only use `HOST=0.0.0.0` in trusted networks (like your home network). This exposes the server to all network interfaces. In production, use proper firewall rules and consider adding authentication.
 
 ## 🛠️ Troubleshooting
 

@@ -5,7 +5,7 @@ const app = express();
 
 // Get port from environment variable or use default
 const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || '0.0.0.0';
+const HOST = process.env.HOST || 'localhost';
 
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
