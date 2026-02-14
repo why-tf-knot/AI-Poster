@@ -32,9 +32,9 @@ cp .env.example .env
 
 Default configuration:
 - **Port**: 3000
-- **Host**: 0.0.0.0 (accessible from all network interfaces)
+- **Host**: localhost (local access only, secure default)
 
-You can customize these values by editing the `.env` file.
+You can customize these values by editing the `.env` file (see the Network Access section below).
 
 ### 3️⃣ Start the Server
 
