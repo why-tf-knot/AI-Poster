@@ -1,0 +1,34 @@
+{
+  "name": "ai-poster",
+  "version": "1.0.0",
+  "description": "AI-Poster: Exoplanet Atmospheric Analysis - Interactive landing page and visualization platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ai",
+    "exoplanet",
+    "atmospheric-analysis",
+    "machine-learning",
+    "space",
+    "astronomy"
+  ],
+  "author": "Why-TF-Knot Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/why-tf-knot/AI-Poster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/why-tf-knot/AI-Poster/issues"
+  },
+  "homepage": "https://github.com/why-tf-knot/AI-Poster#readme"
+}
